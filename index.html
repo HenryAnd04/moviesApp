@@ -1,15 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aplicacion de peliculas</title>
     <link rel="stylesheet" href="./styles/app.css">
+    <link rel="stylesheet" href="./styles/buscarMovie.css">
 </head>
+
 <body>
-    <h1>Aplicacion de peliculas</h1>
+    <header>
+        <h1 class="header-titulo">Netlify</h1>
+        <div class="header-buscador">
+            <input type="text" placeholder="Que quieres ver?" id="inputSearchMovie">
+            <button class="header-boton">Buscar</button>
+        </div>
+    </header>
+
+    <section class="tendencias">
+
+        <h3 class="tendencias-titulo">Tendencias</h3>
+        <div class="tendencias-container-movie">
+            <!--  <div class="tendencias-movie">
+                <img src="../deadpool.png" alt="movie">
+            </div> -->
+
+        </div>
+    </section>
+
+    <section class="categorias">
+        <h3 class="categorias-titulo">Categorias</h3>
+
+        <div class="categorias-item-container">
+            <!-- <div class="categorias-item">
+                <div class="categorias-icono"></div>
+                <h5 class="categorias-item-nombre">Romance</h5>
+            </div>
+ -->
+        </div>
+
+    </section>
+
+    <section id="buscarMovieContainer">
+
+    </section>
+
+    <button id="goToHome">Atras</button>
+
+    <footer>
+        <a href="#">Netlify</a>
+        <p>@HenryAndrade</p>
+    </footer>
+
     
+
 
     <script type="module" src="./src/main.js"></script>
 </body>
+
 </html>
