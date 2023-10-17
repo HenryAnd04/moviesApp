@@ -52,7 +52,7 @@ header {
     border: none;
     background-color: transparent;
     outline: none;
-    font-size: 1.2vw;
+    font-size: 1rem;
 }
 
 .header-buscador input::placeholder {
@@ -193,7 +193,7 @@ footer a {
 
 @media (min-width: 576px) { 
     .header-buscador{
-        width: 40%;
+        width: 60%;
     }
     .tendencias {
         width: 100%;
@@ -211,4 +211,8 @@ footer a {
         top: 51em;
         bottom: 0;
     }
+ }
+
+ @media (min-width: 576px){
+
  }
